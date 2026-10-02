@@ -29,3 +29,20 @@ print(f"Difference : {difference}")
 print(f"percent : {percent:10.2f}%")
 print(f"Status : {status}")
 print("=" * 34)
+
+'''
+An Example of an output
+Dataset name: SuperBase
+No. of Rows Loaded: 100
+No. of Rows Expacted: 500
+
+==================================
+  RECORD CHECK  -  SuperBase
+==================================
+Rows Loaded : 100.0
+Rows Expacted : 500.0
+Difference : 400.0
+percent :      20.00%
+Status : OK
+==================================
+'''
